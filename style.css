@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    color: lavender;
+    height: 55px;
+    width: 100%;
+    background-color: rgb(78, 76, 76);
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+    
+}
+#page1 #hero{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+
+}
+#page1 #hero #pic{
+    position: absolute;
+    height: 70%;
+    width: 80%;
+    bottom: 0%;
+    left: 10%;
+    background-color: black;
+    background-image: url(https://www.apple.com/in/iphone-14-pro/images/key-features/hero/hero__cj6i78tzkp8i_large.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+#page1 #navbar{
+    height: 50px;
+    width: 100%;
+    
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+#page1 #hero h1{
+    position: relative;
+    color: white;
+    top: 7%;
+    left: 41%;
+    font-size: 70px;
+}
+#page1 #hero h2{
+    position: relative;
+    color: white;
+    top: 7%;
+    left: 45%;
+    font-size: 40px;
+}
+#page1 #hero a{
+    color:lightskyblue;
+    position: absolute;
+    top: 23%;
+    left: 43%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    font-size: 40px;
+    justify-content: space-between;
+}
+
+
+#page2{
+    position: absolute;
+    top: 100%;
+    height: 80%;
+    width: 100%;
+   
+    background-image: url(https://www.apple.com/in/home/heroes/iphone-14/images/hero_iphone14_yellow__eun20sn4imi6_largetall.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#hero2 h1{
+    position: relative;
+    color: black;
+    top: 8%;
+    left: 40%;
+    font-size: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#page2 #hero2 pre{
+    position: relative;
+    color: black;
+    top: 8%;
+    left: 35%;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 200;
+}
+#page2 #hero2 a{
+    color:blue;
+    position: absolute;
+    top: 27%;
+    left: 43%;
+    font-size: 35px;
+    justify-content: space-between;
+}
+#page3{
+    position: absolute;
+    top: 200%;
+    height: 80%;
+    width: 100%;
+   
+    background-image: url(https://www.apple.com/in/home/images/heroes/apple-watch-series-8/hero_apple_watch_series_8_spring__b1y8wb7xjc9y_largetall_2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#hero3 h1{
+    position: relative;
+    color: white;
+    top: 8%;
+    left: 45%;
+    font-size: 70px;
+}
+#hero3 h3{
+    position: relative;
+    color: red;
+    font-size: 30px;
+    left: 47%;
+}
+#page3 #hero3 h2{
+    position: relative;
+    color: white;
+    top: 8%;
+    text-transform: uppercase;
+    left: 40%;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#page3 #hero3 a{
+    color:lightseagreen;
+    position: absolute;
+    top: 25%;
+    left: 43%;
+    font-size: 35px;
+    justify-content: space-between;
+}
+#page3 hero3 a{
+    color: white;
+}
+
+
+#page4{
+    position: absolute;
+    top: 283%;
+    height: 100%;
+    width: 49%;
+    margin-left: 1%;
+    background-color: red;
+    background-image: url(https://www.apple.com/v/home/az/images/promos/iphone-tradein/iphone_tradein_promo__d5au3rkw5kuq_large_2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#page5{
+    position: absolute;
+    top: 283%;
+    left: 51%;
+    height: 100%;
+    width: 50%;
+    background-color: red;
+    background-image: url(https://www.apple.com/v/home/az/images/promos/wwdc23-announce/promo_wwdc23__b68ptht3mro2_large_2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#page6{
+    position: absolute;
+    top: 400%;
+    height: 100%;
+    width: 50%;
+    background-color: red;
+    background-image: url(https://www.apple.com/v/home/az/images/promos/ipad/promo_ipad__fioegapg12qi_medium.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#page7{
+    position: absolute;
+    top: 400%;
+    left: 50%;
+    height: 100%;
+    width: 50%;
+    background-color: red;
+    background-image: url(https://www.apple.com/v/macbook-pro-14-and-16/e/images/overview/hero/hero_intro__cww8m2vra4uq_large.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#page8{
+    position: absolute;
+    top: 500%;
+    height: 100%;
+    width: 50%;
+    background-color: red;
+    background-image: url(https://www.apple.com/in/home/promos/mothers-day-2023/images/promo__sw58lbodkmqq_medium.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#page9{
+    position: absolute;
+    top: 500%;
+    left: 50%;
+    height: 100%;
+    width: 50%;
+    background-color: red;
+    background-image: url(https://www.apple.com/in/home/promos/apple-watch-ultra/images/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#page4 #hero4{
+    color: rgb(58, 57, 57);
+    
+    position: absolute;
+  text-transform: capitalize;
+    top: 10%;
+    left: 30%;
+    text-align: center;
+    
+}
+#page4 #hero4 h1{
+    font-size: 50px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+
+}
+#pahe4 #hero4 h2{
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#page4 #hero4 a{
+    color: blue;
+    font-size: 25px;
+}
+#page5 #hero5{
+    color: white;
+    
+    position: absolute;
+  text-transform: capitalize;
+    top: 70%;
+    left: 30%;
+    text-align: center;
+}
+#page5 #hero5 h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+
+}
+#page5 #hero5 pre{
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#page5 #hero5 a{
+    color: blue;
+    font-size: 25px;
+}
+#page6 #hero6{
+    color: black;
+    
+    position: absolute;
+  
+    top: 10%;
+    left: 30%;
+    text-align: center;
+    
+}
+#page6 #hero6 h1{
+    
+    font-size: 50px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+
+}
+#page6 #hero6 h2{
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#page6 #hero6 a{
+    text-transform: capitalize;
+    color: blue;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+#page7 #hero7{
+    color: white;
+    
+    position: absolute;
+  
+    top: 30%;
+    left: 28%;
+    text-align: center;
+    
+}
+
+#page7 #hero7 h2{
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#page7 #hero7 a{
+    text-transform: capitalize;
+    color: blue;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+#page8 #hero8{
+    color: black;
+    
+    position: absolute;
+  text-transform: capitalize;
+    top: 10%;
+    left: 30%;
+    text-align: center;
+    
+}
+#page8 #hero8 h1{
+    font-size: 50px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+
+}
+#page8 #hero8 h2{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#page8 #hero8 a{
+    color: blue;
+    font-size: 25px;
+}
+#page8 #hero8 pre{
+    color: black;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#page9 #hero9{
+    color: black;
+    
+    position: absolute;
+  text-transform: capitalize;
+    top: 10%;
+    left: 30%;
+    text-align: center;
+    
+}
+#page9 #hero9 h1{
+    font-size: 50px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+
+}
+#page9 #hero9 h2{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#page9 #hero9 h3{
+    font-size:30px ;
+    color: orange;
+}
+#page9 #hero9 a{
+    color: blue;
+    font-size: 25px;
+}
+#page3 #hero3 i{
+    font-size: 50px;
+}
+#page9 #hero9 h5{
+    position: relative;
+    bottom: 4%;
+    right: 4%;
+
+    font-size: 30px;
+}
